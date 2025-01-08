@@ -1,5 +1,18 @@
-.piece {
-    width: 10px;
-    height: 10px;
-    background-color: blue;
+
+
+.square {
+    background-color: rgb(182, 182, 241);
+    border-style: solid;
+    border-color:rgb(44, 8, 35);
+    border-width: 2px;
+    min-width: 20px;
+    min-height: 20px;
+    flex: 1;
+}
+.div {
+    display: flex;
+}
+#container {
+    display: flex;
+    flex-direction: row;
 }
