@@ -22,3 +22,9 @@
     width: 700px;
     height: 700px;
 }
+
+button {
+    background-color: rgb(182, 182, 241);
+    margin-top: 20px;
+    margin-left: 20px;
+}
