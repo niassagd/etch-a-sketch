@@ -1,22 +1,24 @@
 const container = document.getElementById("container");
 
-const div = document.createElement("div");
-container.appendChild(div);
+const row = document.createElement("div");
+row.classList.add("row");
+container.appendChild(row);
 
 const square = document.createElement("div");
 
 for (let i = 0; i < 16; i++) {
-    const div = document.createElement("div");
+    const row = document.createElement("div");
+    row.classList.add("row");
     for (let i = 0; i < 16; i++) { 
         const square = document.createElement("div");
         square.classList.add("square");
-        div.appendChild(square);
+        row.appendChild(square);
 
         square.addEventListener("mouseenter",() => {
             square.style.backgroundColor = "black";
         });
     }
-    container.appendChild(div);
+    container.appendChild(row);
 
 
 }
