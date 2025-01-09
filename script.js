@@ -11,6 +11,17 @@ for (let i = 0; i < 16; i++) {
         const square = document.createElement("div");
         square.classList.add("square");
         div.appendChild(square);
+
+        square.addEventListener("mouseenter",() => {
+            square.style.backgroundColor = "black";
+        });
     }
     container.appendChild(div);
+
+
 }
+
+    
+
+
+
