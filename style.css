@@ -2,9 +2,8 @@
     background-color: rgb(182, 182, 241);
     border-style: solid;
     border-color:rgb(44, 8, 35);
-    border-width: 1px;
-    min-width: 20px;
-    min-height: 20px;
+    border-width: 0px;
+    flex: 1;
     
     
 }
@@ -12,6 +11,7 @@
 .row {
     display: flex;
     flex-direction: row;
+    flex: 1;
 }
 
 #container {
@@ -19,6 +19,6 @@
     flex-direction: column;
     align-items: stretch;
     margin: 10px;
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 700px;
 }
