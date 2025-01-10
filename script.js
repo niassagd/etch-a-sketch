@@ -14,7 +14,10 @@ function drawGrid(n) {
             row.appendChild(square);
 
             square.addEventListener("mouseenter",() => {
-                square.style.backgroundColor = "black";
+                let colorNum1 = Math.floor(Math.random()*260);
+                let colorNum2 = Math.floor(Math.random()*260);
+                let colorNum3 = Math.floor(Math.random()*260);
+                square.style.backgroundColor = `rgb(${colorNum1},${colorNum2},${colorNum3})`;
             });
         }
         container.appendChild(row);
